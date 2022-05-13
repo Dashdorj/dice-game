@@ -89,7 +89,7 @@ document.querySelector(".btn-hold").addEventListener("click", function() {
             scores[activePlayer];
 
         // Ð£Ð³ Ñ‚Ð¾Ð³Ð»Ð¾Ð³Ñ‡ Ñ…Ð¾Ð¶ÑÐ¾Ð½ ÑÑÑÑ…Ð¸Ð¹Ð³ (Ð¾Ð½Ð¾Ð¾ Ð½ÑŒ 100-Ñ Ð¸Ñ… ÑÑÑÑ…) ÑˆÐ°Ð»Ð³Ð°Ñ…
-        if (scores[activePlayer] >= 10) {
+        if (scores[activePlayer] >= 100) {
             // Ð¯Ð»Ð°Ð³Ñ‡ Ð³ÑÑÑÐ½ Ñ‚ÐµÐºÑÑ‚Ð¸Ð¹Ð³ Ð½ÑÑ€Ð½Ð¸Ð¹Ñ… Ð½ÑŒ Ð¾Ñ€Ð¾Ð½Ð´ Ð³Ð°Ñ€Ð³Ð°Ð½Ð°
             isNewGame = false;
             document.getElementById("name-" + activePlayer).textContent = "WINNER!!!";
